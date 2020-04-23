@@ -1,0 +1,15 @@
+g**INICIAR CON LA INSTALACIÓN DE BUNDLE**
+bundle install
+
+**PARA VER EN LOCALHOST LOS CAMBIOS**
+bundle exec jekyll serve
+
+**SUBIR CAMBIOS Y PUBLICARLOS**
+git init
+git add .
+git commit -m "Coment here"
+git remote add origin https://github.com/rmedinas/rmedinas.github.io.git --> only the first time
+git push -u origin master
+
+**CHANGE URL
+git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
