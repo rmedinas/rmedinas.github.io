@@ -58,22 +58,22 @@ body{
 */
 
 .bar.learning::before{
-  width: calc(20% - 10px);
+  width: calc(80% - 10px);
   background-color: #71B2DE;
 }
 .bar.basic::before{
-  width: calc(40% - 10px);
+  width: calc(70% - 10px);
   background-color: #50B9B9;
 }
 .bar.intermediate::before{
-  width: calc(60% - 10px);
+  width: calc(50% - 10px);
   background-color: #7C8EDE;
 }
 .bar.advanced::before{
-  width: calc(80% - 10px);
+  width: calc(75% - 10px);
   background-color: #A09E9E;
 }
 .bar.expert::before{
-  width: calc(100% - 10px);
+  width: calc(70% - 10px);
   background-color: #70C394;
 }
